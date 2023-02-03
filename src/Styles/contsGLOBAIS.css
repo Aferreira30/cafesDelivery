@@ -1,0 +1,265 @@
+
+/*Cafes*/
+#cont-article-cafe{
+  max-width: 1440px;
+  margin: 42px auto;
+}
+
+#cont-ul {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:  repeat(4,1fr);  
+  row-gap: 40px ;
+}
+
+#cont-li  {
+  width: 100%;
+  margin: 0 auto;
+  list-style:none;
+  position: relative;
+}
+
+#cont-li:not(:last-child){
+  padding-right: -100px;
+}
+
+#cont-div-cafes{
+  background: #F3F2F2;
+  width: 256px;
+  height: 310px;
+  border-radius: 6px 36px;
+  margin: 0 auto;
+}
+
+/*dentro do cont-div-cafes*/
+
+#cont-semimg{
+  padding-top: 110px;
+}
+
+#cont-tipos{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#cont-textos{
+  max-width: 80%;
+  margin: 20px auto;
+}
+#cont-btnPrice{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  max-width: 90%;
+  margin: 40px auto;
+}
+
+/*Header*/
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+#cont-header {
+  display:flex;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: 20px auto 50px auto;
+  align-items: center;
+}
+#cont-ul-header{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+
+/*btn + - */
+
+#cont-qnt-btn{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #E6E5E5;
+  border-radius: 6px;
+}
+.cont-qnt-btn-2{
+  align-items: center;
+  background: #E6E5E5;
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  gap: 6px;
+  
+}
+.cont-qnt-btn-2 > button {
+  height: 32px;
+}
+#btn-home{
+  background: #E6E5E5;
+  border-radius: 6px;
+  border:none;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+}
+#btn-home:hover{
+  background: #E6d6d6;
+}
+
+/*Section*/
+#cont-section{
+  max-width: 1440px;
+  margin: 95px auto 146px auto;
+}
+
+#cont-principal-apresentacao{
+  max-width: 85%;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 20px;
+}
+
+#cont-ul-descri{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+#cont-descri-subtitulo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#cont-descricoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#cont-titulo-sub{
+  margin-right: 150px ;
+}
+
+/*Completar pedidos*/
+#cont-completar-ped{
+  max-width: 1440px;
+  margin:0 auto;
+}
+
+#cont-completar-pedidos{
+  max-width: 85%;
+  margin:0 auto;
+}
+
+#cont-endereco{
+  width: 640px;
+  height: 372px;
+  background: #F3F2F2;
+  border-radius: 6px;
+  padding: 40px;
+  grid-column: 1;
+}
+
+#cont-dados-end{
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 560px);
+  gap:14px;
+}
+
+#cont-textos{
+  max-width: 100%;
+}
+
+#cont-h1{
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1/-1;
+}
+
+#cont-pagamento{
+  background: #F3F2F2;
+  border-radius: 6px;
+  width: 640px;
+  height: 207px;
+  padding: 40px;
+  grid-column: 1;
+  grid-row: 3;
+  margin-top: 50px;
+}
+#btn-pagamento{
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+  justify-content: space-evenly;
+}
+
+#cont-carrinho-cafe{
+  max-width: 448px;
+  background: #F3F2F2;
+  border-radius: 6px 44px;
+  padding: 40px;
+  grid-column: 2;
+  grid-row: 2;
+}
+#cont-dados-valores{
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#cont-textos-carrinho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: auto ;
+}
+
+#cont-completar-pedidos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 150px;
+  margin-bottom: 60px;
+}
+
+#ajuste-remover{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  
+}
+
+/*pedido feito*/
+#cont-pedidoconfirmado-main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+#cont-pedidoconfirmado-article{
+  max-width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+#cont-ul-li-dados{
+ grid-column: 1;
+ grid-row: 2;
+ width: 526px;
+  height: 270px;
+  border-radius: 6px 36px;
+  border:1px solid #DBAC2C;
+  margin-top: -280px;
+}
+#cont-dados-espera{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

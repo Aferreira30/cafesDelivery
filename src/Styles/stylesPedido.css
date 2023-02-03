@@ -1,0 +1,264 @@
+#cont-dados-end  input {
+  border: 1px solid #E6E5E5;
+  border-radius: 4px;
+  background: #EEEDED;
+  padding: 12px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #8D8686;
+}
+
+#span-end{
+  color: #403937;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+#p-subtitle-end{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #574F4D;
+}
+
+#cont-h1 > h1 {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #403937;
+}
+
+/*form*/
+#cep {
+  width: 200px;
+  height: 42px;
+  grid-column: 1/-1;
+}
+#Rua {
+  width: 560px;
+  height: 42px;
+  grid-column: 1/-1;
+}
+#Numero{
+  width: 200px;
+  height: 42px;
+}
+#Complemento{
+  width: 348px;
+  height: 42px; 
+}
+#Bairro{
+  width: 200px;
+  height: 42px;
+  grid-column:1;
+}
+#Cidade{
+  width: 276px;
+  height: 42px;
+  grid-column:2;
+}
+#UF{
+  width: 60px;
+  height: 42px;
+}
+
+
+/*ajustes endereço*/
+#num-comple{
+  display: flex;
+  gap:12px;
+  justify-content: space-evenly;
+}
+#bai-cid-uf{
+  grid-column: 1;
+  display: flex;
+  gap:12px;
+  justify-content: space-evenly;
+}
+#img-texto{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#p-subtitle-end{
+  padding-left: 34.3px;
+}
+#h1-carrinho-ped{
+  margin-right: 290px;
+}
+
+/*botoes pagamento*/
+#btn-pagamento>button {
+  width: 178.67px;
+  height: 51px;
+  background: #E6E5E5;
+  border-radius: 6px;
+  padding: 16px;
+  border:none;
+  cursor: pointer;
+}
+#btn-pagamento>button:hover{
+  background: #b9b6b6;
+}
+#btn-pagamento>button:focus{
+  border: 1px solid #b9b6b6; 
+  background: #b9b7b7;
+}
+#btn-pagamento>button:focus-within{
+  border: 1px solid #b9b6b6; 
+  background: #b9b7b7;
+}
+
+button > div {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 160%;
+  color: #574F4D;
+}
+
+/*Pagamento carrinho*/
+#div-total-itens,#div-entrega,#div-total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#div-entrega{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #574F4D
+}
+#div-entrega > span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: right;
+}
+
+#div-total-itens{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #574F4D
+}
+#div-total-itens > span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: right;
+}
+
+#div-total {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #403937;
+  line-height: 130%;
+}
+
+#btn-confirmar{
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 368px;
+  height: 46px;
+  background: #DBAC2C;
+  border-radius: 6px;
+  padding: 12px 8px;
+  color: #FFFFFF;
+  font-stretch: 100;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  border: none;
+}
+
+/*outros ajustes*/
+hr {
+  margin: 25px auto 24px auto;
+  width: 368px;
+  border: 1px solid #E6E5E5;
+}
+
+#p-nome-cafe{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #403937;
+  }
+#span-preco{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #574F4D;
+  text-align: right;
+}
+#btn-remover{
+  width: 91px;
+  height: 32px;
+  background: #E6E5E5;
+  border-radius: 6px;
+  align-items: center;
+  border:none;
+  cursor: pointer;
+  margin: 5px auto 0 155px;
+
+}
+#remover{
+  color: #574F4D;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  margin: 0 auto ;
+}
+#btn-mais-menos{
+  margin-right: 6px;
+}
+
+#img-docarrinho {
+  position: relative;
+}
+
+#img-docarrinho > img{
+height: 64px;
+width: 64px;
+position: absolute;
+left: 0px;
+top: -15px;
+
+
+}

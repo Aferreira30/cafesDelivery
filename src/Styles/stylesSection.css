@@ -1,0 +1,41 @@
+#h1-titulo{
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  color: #272221;
+  width: 588px;
+  height: 124px;
+  margin-bottom: 20px;
+}
+
+#p-subtitulo{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #403937;
+  font-stretch: 100;
+  width: 588px;
+  height: 52px;
+}
+
+#cont-descri-subtitulo > span {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #574F4D;
+  width: 250px;
+  height: 21px;
+}
+
+#cont-ul-descri > li {
+  list-style: none;
+}
+
+#img-xicgrande{
+  grid-column: span 2;
+}
